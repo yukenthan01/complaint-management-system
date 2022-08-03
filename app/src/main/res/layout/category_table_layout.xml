@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2,3">
+    <TableRow>
+        <TextView
+            android:id="@+id/tableCategory"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:layout_column="1"
+            />
+        <TextView
+            android:id="@+id/tableCategoryEmail"
+            android:textSize="16dp"
+
+            android:padding="10dp"
+            android:layout_column="1"/>
+        <TextView
+            android:id="@+id/tableAction"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:layout_column="1"/>
+    </TableRow>
+</TableLayout>
